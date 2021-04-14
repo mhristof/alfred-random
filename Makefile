@@ -11,7 +11,7 @@ bin/alfred-random: $(shell find ./ -name '*.go')
 	go build -o bin/alfred-random main.go
 
 
-zip: info.plist Makefile alfred-random.sh bin/alfred-random
+zip: info.plist Makefile alfred-random.sh bin/alfred-random 9A4E0276-BFF2-4386-9699-AB65E494C7B8.png icon.png
 	zip -r $(IMAGE).alfredworkflow $^
 
 clean:

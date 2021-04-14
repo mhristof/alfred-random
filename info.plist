@@ -19,15 +19,28 @@
 				<false/>
 			</dict>
 		</array>
+		<key>EB255A05-9CF1-46F0-8497-AE67F8D848A2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>80DC7BF7-9896-497E-A6ED-714BE977DFFA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
-    <string>Mike Christof</string>
+	<string>Mike Christof</string>
 	<key>description</key>
-    <string>Generate random data</string>
+	<string>Generate random data</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-    <string>alfred-random</string>
+	<string>alfred-random</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -46,7 +59,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>random</string>
+				<string>rand</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -56,9 +69,9 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string>Calculating infinity ...</string>
 				<key>script</key>
-                <string>./alfred-random.sh alfred</string>
+				<string>./alfred-random.sh alfred</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -66,11 +79,11 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string></string>
+				<string>Generate a random word/user/name/etc</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
@@ -87,7 +100,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-                <string>./alfred-random.sh {query}</string>
+				<string>./alfred-random.sh {query}</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -102,11 +115,37 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>80DC7BF7-9896-497E-A6ED-714BE977DFFA</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>80DC7BF7-9896-497E-A6ED-714BE977DFFA</key>
+		<dict>
+			<key>xpos</key>
+			<integer>530</integer>
+			<key>ypos</key>
+			<integer>235</integer>
+		</dict>
 		<key>9A4E0276-BFF2-4386-9699-AB65E494C7B8</key>
 		<dict>
 			<key>xpos</key>

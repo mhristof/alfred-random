@@ -4,10 +4,10 @@ on:
   - push
 
 jobs:
-  build:
+  zip:
     runs-on: macos-latest
     steps:
         - uses: actions/checkout@v2
-        - run: make build zip
+        - run: make zip
       
 

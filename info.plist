@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>alfred-random</string>
+	<string>random</string>
 	<key>connections</key>
 	<dict>
 		<key>9A4E0276-BFF2-4386-9699-AB65E494C7B8</key>
@@ -40,7 +40,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>alfred-random</string>
+	<string>random</string>
 	<key>objects</key>
 	<array>
 		<dict>
